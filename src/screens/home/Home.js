@@ -82,7 +82,6 @@ const Home = (props) => {
     })
       .then((response) => response.json())
       .then((response) => {
-        console.log(response);
         setReleasedMoviesList(response.movies);
       });
   };
